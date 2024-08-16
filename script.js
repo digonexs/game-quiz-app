@@ -1,8 +1,13 @@
 const questions = [
   {
-    question: "Qual é a capital da França?",
-    options: ["Londres", "Paris", "Roma", "Madri"],
-    answer: 1,
+    question: "Qual é a principal função do hipocampo no cérebro?",
+    options: [
+      "Processamento emocional",
+      "Coordenação motora",
+      "Regulação hormonal",
+      "Memória e aprendizado",
+    ],
+    answer: 3,
   },
   {
     question: "Quem desenvolveu a Teoria da Relatividade?",
