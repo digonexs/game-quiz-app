@@ -13,6 +13,7 @@
     <div id="quiz-header">
       <h1>Quiz de Conhecimentos Gerais</h1>
       <div id="timer">Tempo: <span id="time">10</span>s</div>
+      <div id="question-progress">Pergunta <span id="current-question">1</span> de <span id="total-questions">20</span></div>
     </div>
     <div id="quiz-body">
       <div id="question-container">
@@ -32,6 +33,10 @@
   <div id="result-container" class="hide">
     <h2>Seu Resultado</h2>
     <p>Você acertou <span id="score"></span> de <span id="total"></span> perguntas.</p>
+    <p>Perguntas não respondidas: <span id="unanswered-questions"></span></p>
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
     <button onclick="restartQuiz()">Reiniciar Quiz</button>
   </div>
 
